@@ -1,0 +1,52 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0%;
+    max-width: 100%;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+
+span{
+    color: maroon;
+    font-weight: bolder;
+}
+.link-button{
+    font-size: 30px;
+    text-decoration: none;
+    background-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    padding: 2%;
+    border-radius: 3%;
+    text-decoration-color: papayawhip;
+}
+.head-colour{
+    color: orange;
+    font-weight: bold;
+}
+section{
+    font-weight: bold;
+    padding: 2%;}
+
+.firstpart{
+display: flex;
+}
+.tuto{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 10px;
+}
+.tuto img{
+    width: 70%;
+}
+.link-button{
+    color: rgb(218, 48, 6);
+}
+.firstpart{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
