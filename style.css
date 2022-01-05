@@ -15,12 +15,13 @@ span{
     font-weight: bolder;
 }
 .link-button{
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: none;
-    background-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background-image: linear-gradient(0.25turn, #e47f8d, #e274cb, #bed072);
     padding: 2%;
     border-radius: 3%;
-    text-decoration-color: papayawhip;
+    text-decoration-color: cornsilk;
+
 }
 .head-colour{
     color: orange;
@@ -43,10 +44,78 @@ display: flex;
     width: 70%;
 }
 .link-button{
-    color: rgb(218, 48, 6);
+    color: rgb(17, 14, 14);
 }
 .firstpart{
     background: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+.Sec-Part{
+    display: flex;
+}
+.Juk{
+    padding-right: 10%;
+    padding-left: 4.5%;
+    padding-top: 3%;
+}
+.Yuk{
+    padding-right: 5%;
+    padding-left: 4%;
+}
+.Sec-Part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#LOL{
+    color: tomato;
+}
+.third{
+    display: flex;
+    max-width: 100%;
+   margin: 5% 
+}
+.alfa{
+    padding-right: 10%
+    padding-left 2.5%;
+}
+.gama{
+    padding-left: 10%;
+}
+.jio{
+    margin-left: 50px;
+    color: rgb(175, 52, 30);
+    font-size: 30px;
+}
+.dg{
+    color: yellowgreen;
+}
+.alfa{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+ border-image: linear-gradient(blue, cyan);
+border-image-slice: 1;
+border-left: 15px violet;
+}
+.gama{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 15px violet;
+}
+.alfa{
+    box-shadow: 10px 10px 40px 20px brown;
+}
+.gama{
+    box-shadow: 10px 10px 40px 20px brown;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+footer p{
+    text-align: center;
+    padding-top: 10%;
 }
